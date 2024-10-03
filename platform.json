@@ -1,0 +1,168 @@
+[
+    {
+        "title": "Math_Combinatorics",
+        "creator": "kgrigor@geosense.gr",
+        "date": "10/06/2024",
+        "icon": "N/A",
+        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-ant_colony",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Provides functionality to find all combinations and permutations given a set and subset size."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "Framework"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"                
+            ]
+        }
+    },
+    {
+        "title": "Vehicle Routing Problem with Pickups and Deliveries (VRPPD)",
+        "creator": "kgrigor@geosense.gr",
+        "date": "10/06/2024",
+        "icon": "N/A",
+        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM_cvrp_pickup_delivery_distance",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solution to the Vehicle Routing Problem with Pickups and Deliveries (VRPPD) using Google OR-Tools."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "Networking",
+                "Flight control"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
+    },
+    {
+        "title": "Genetic Algorithm for Traveling Salesman Problem (TSP)",
+        "creator": "kgrigor@geosense.gr",
+        "date": "10/06/2024",
+        "icon": "N/A",
+        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM_genetic_algorithm",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solves the Traveling Salesman Problem (TSP) using a Genetic Algorithm (GA)."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "Genetic Algorithms"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
+    },
+    {
+        "title": "Ant Colony Optimization Algorithm",
+        "creator": "kgrigor@geosense.gr",
+        "date": "10/06/2024",
+        "icon": "N/A",
+        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-ant_colony",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solves optimization problems using Ant Colony Optimization (ACO) algorithm."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "Ant Colony Optimization"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
+    },
+    {
+        "title": "Python TSP Solver",
+        "creator": "FrickTobias, luanleonardo",
+        "date": "03/10/2024",
+        "icon": "N/A",
+        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-tsp",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solves the Traveling Salesman Problem (TSP) using various methods, including dynamic programming and local search."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "TSP Solver"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
+    }
+]
