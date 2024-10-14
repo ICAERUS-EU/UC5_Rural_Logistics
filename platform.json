@@ -3,7 +3,7 @@
         "title": "Math_Combinatorics",
         "creator": "kgrigor@geosense.gr",
         "date": "10/06/2024",
-        "icon": "N/A",
+        "icon": "https://daedalus.geosenseapps.com/models/images/math_combinations.png",
         "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-ant_colony",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
@@ -36,7 +36,7 @@
         "title": "Vehicle Routing Problem with Pickups and Deliveries (VRPPD)",
         "creator": "kgrigor@geosense.gr",
         "date": "10/06/2024",
-        "icon": "N/A",
+        "icon": "https://daedalus.geosenseapps.com/models/images/vrp_pickup_delivery_solution.svg",
         "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM_cvrp_pickup_delivery_distance",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
@@ -70,7 +70,7 @@
         "title": "Genetic Algorithm for Traveling Salesman Problem (TSP)",
         "creator": "kgrigor@geosense.gr",
         "date": "10/06/2024",
-        "icon": "N/A",
+        "icon": "https://daedalus.geosenseapps.com/models/images/genetic_algorithm.png",
         "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM_genetic_algorithm",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
@@ -103,7 +103,7 @@
         "title": "Ant Colony Optimization Algorithm",
         "creator": "kgrigor@geosense.gr",
         "date": "10/06/2024",
-        "icon": "N/A",
+        "icon": "https://daedalus.geosenseapps.com/models/images/ant_colony.svg",
         "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-ant_colony",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
@@ -136,7 +136,7 @@
         "title": "Python TSP Solver",
         "creator": "FrickTobias, luanleonardo",
         "date": "03/10/2024",
-        "icon": "N/A",
+        "icon": "https://daedalus.geosenseapps.com/models/images/traveling-salesman-problem.png",
         "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-tsp",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
