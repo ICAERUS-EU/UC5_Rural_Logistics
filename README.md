@@ -1,7 +1,6 @@
 <div align="center">
   <a href="https://icaerus.eu" target="_blank">
     <img width="300" src="https://icaerus.eu/wp-content/uploads/2022/09/ICAERUS-logo-white.svg" alt="ICAERUS Logo">
-    <h3 style="margin-top: 10px;">ICAERUS</h3>
   </a>
   <a href="https://daedalus.geosenseapps.com" target="_blank">
     <img width="120" src="https://daedalus.geosenseapps.com/images/dlogo2.png" alt="DAEDALUS Logo">
@@ -17,6 +16,7 @@
     <a href="https://github.com/icaerus-eu/icaerus-repo-template/issues">Request Feature</a>
   </p>
 </div>
+
 
 ![Downloads](https://img.shields.io/github/downloads/icaerus-eu/UC5_Rural_Logistics/total) ![Contributors](https://img.shields.io/github/contributors/icaerus-eu/UC5_Rural_Logistics?color=dark-green) ![Forks](https://img.shields.io/github/forks/icaerus-eu/UC5_Rural_Logistics?style=social) ![Stargazers](https://img.shields.io/github/stars/icaerus-eu/UC5_Rural_Logistics?style=social) ![Issues](https://img.shields.io/github/issues/icaerus-eu/UC5_Rural_Logistics) ![License](https://img.shields.io/github/license/icaerus-eu/UC5_Rural_Logistics) 
 
