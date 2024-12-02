@@ -1,67 +1,69 @@
 <div align="center">
-  <p>
-    <a href="https://icaerus.eu" target="_blank">
-      <img width="50%" src="https://icaerus.eu/wp-content/uploads/2022/09/ICAERUS-logo-white.svg"></a>
-    <h3 align="center">UC1: Crop Monitoring📷</h3>
-    
-   <p align="center">
-    This repository contains Crop Monitoring models developed with drone images and computer vision 
-    <br/>
-    <br/>
+  <a href="https://icaerus.eu" target="_blank">
+    <img width="300" src="https://icaerus.eu/wp-content/uploads/2022/09/ICAERUS-logo-white.svg" alt="ICAERUS Logo">
+    <h3 style="margin-top: 10px;">ICAERUS</h3>
+  </a>
+  <br/>
+  <br/>
+  <a href="https://daedalus.geosenseapps.com" target="_blank">
+    <img width="120" src="https://daedalus.geosenseapps.com/images/dlogo2.png" alt="DAEDALUS Logo">
+  </a>
+  <h3 align="center">UC5: Rural Logistics</h3>
+  
+  <p align="center">
+    This repository contains tools and models designed for drone-based rural logistics solutions, focusing on isolated and underserved areas.
     <br/>
     <br/>
     <a href="https://github.com/icaerus-eu/icaerus-repo-template/issues">Report Bug</a>
     -
     <a href="https://github.com/icaerus-eu/icaerus-repo-template/issues">Request Feature</a>
   </p>
-</p>
 </div>
 
-![Downloads](https://img.shields.io/github/downloads/icaerus-eu/UC1_Crop_Monitoring/total) ![Contributors](https://img.shields.io/github/contributors/icaerus-eu/UC1_Crop_Monitoring?color=dark-green) ![Forks](https://img.shields.io/github/forks/icaerus-eu/UC1_Crop_Monitoring?style=social) ![Stargazers](https://img.shields.io/github/stars/icaerus-eu/UC1_Crop_Monitoring?style=social) ![Issues](https://img.shields.io/github/issues/icaerus-eu/UC1_Crop_Monitoring) ![License](https://img.shields.io/github/license/icaerus-eu/UC1_Crop_Monitoring) 
+![Downloads](https://img.shields.io/github/downloads/icaerus-eu/UC5_Rural_Logistics/total) ![Contributors](https://img.shields.io/github/contributors/icaerus-eu/UC5_Rural_Logistics?color=dark-green) ![Forks](https://img.shields.io/github/forks/icaerus-eu/UC5_Rural_Logistics?style=social) ![Stargazers](https://img.shields.io/github/stars/icaerus-eu/UC5_Rural_Logistics?style=social) ![Issues](https://img.shields.io/github/issues/icaerus-eu/UC5_Rural_Logistics) ![License](https://img.shields.io/github/license/icaerus-eu/UC5_Rural_Logistics) 
 
 ## Table Of Contents
 
 * [Summary](#summary)
 * [Structure](#structure)
 * [Models](#models)
+* [Tools](#tools)
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
 
 ## Summary
-Within this repository, you'll discover various models and computational tools designed for crop monitoring purposes. These resources can be used for predicting the health status of vineyards using images captured by drones.
+Within this repository, you'll find various models and computational tools designed to enable and enhance rural logistics operations using drones. These tools address challenges in transporting essential goods, medical supplies, and other critical resources to remote and isolated areas.
 
 ## Structure
-The repository folders are structured as follow: 
+The repository folders are structured as follows: 
 
-- **data:** here you should add the [UC1 GITHUB DATA FOLDER](https://zenodo.org/records/11195994) that you could download from Zenodo.
-- **top_view:** it has some top-view level calculations for vegetation analysis.
-  - **create_grid**: detects rows and parcels and define a grid
-  - **create_grid_aligned**: detects rows and parcels and define a grid after aligned the orthomosaic vineyard image
-  - **calculate_vegetation_indexes**: calculates different vegetation indexes of the orthomosaic vineyard image
-  - **NDVI_per_parcels**: calculates the NDVI in each parcel
-- **models:** models developed for crop monitoring
-- **platform.json:** organized information about the models
+- **data:** Contains datasets used for training and testing the models. Some datasets are available for download from [Zenodo](https://zenodo.org/).
+- **route_optimization:** Includes tools for planning and optimizing drone delivery routes in rural settings.
+  - **pathfinder:** Algorithms for finding optimal delivery routes considering terrain and weather conditions.
+  - **multi_drop:** A system for managing deliveries to multiple locations efficiently.
+- **models:** Contains machine learning models and algorithms developed specifically for rural logistics.
+- **platform.json:** Structured information about the models and their parameters.
 
 ## Models
+The [models](https://github.com/ICAERUS-EU/UC5_Rural_Logistics/blob/main/models/) developed are the following:
 
-The [models](https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/blob/main/models/) developed are the following:
- 
+#### _[Ant Colony Optimization Model](https://github.com/ICAERUS-EU/UC5_Rural_Logistics/blob/main/models/01_MM_ant_colony_v1/)_
+This model uses Ant Colony Optimization (ACO) techniques to solve logistics routing problems efficiently by mimicking the behavior of ant colonies in nature.
 
-#### _[Row-view disease detection model with YOLOv8](https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/blob/main/models/01_plant_disease_detection_yolov8_v1/)_
-This model has been trained with YOLOv8 and is able to detect the plants and provide information about its health status from a plant-view level. 
+#### _[Traveling Salesman Problem Solver](https://github.com/ICAERUS-EU/UC5_Rural_Logistics/blob/main/models/02_MM_tsp_v1/)_
+This model provides a robust solution to the Traveling Salesman Problem (TSP) for optimizing routes among multiple delivery points.
 
-#### _[Plant locator from row-view to global-view](https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/blob/main/models/02_plant_locator_v1/)_
-This algorithm contains the complete workflow from detecting a plant in a row-view image to locate this plant in the global-view orthomosaic to visualize its health status at a global scope. It also locates the drone positions.
+#### _[Combination-Based Optimization](https://github.com/ICAERUS-EU/UC5_Rural_Logistics/blob/main/models/03_MM_combinations_v1/)_
+A model designed for generating and evaluating combinations to optimize resource allocation and delivery routes.
 
-#### _[Plant locator from row-view to global-view -> grid](https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/blob/main/models/02_plant_locator_v2/)_
-This algorithm contains the complete workflow from detecting a plant in a row-view image to locate this plant in the global-view orthomosaic in a grid based visualization to observe its health status at a global scope. It also locates the drone positions.
+#### _[CVRP with Distance Optimization](https://github.com/ICAERUS-EU/UC5_Rural_Logistics/blob/main/models/04_cvrp_pickup_delivery_distance_v1/)_
+This model solves the Capacitated Vehicle Routing Problem (CVRP) for pickup and delivery while minimizing travel distances.
 
-#### _[Plant leaves analysis](https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/blob/main/models/03_plant_leaves_analysis_v1)_
-This code approaches some methods for performing analysis and detect early disease development in vineyard leaves using color detection, VARI index and clustering algorithms.
+#### _[Genetic Algorithm Optimization](https://github.com/ICAERUS-EU/UC5_Rural_Logistics/blob/main/models/05_MM_genetic_algorithm_v1/)_
+An advanced optimization model leveraging Genetic Algorithms (GA) to handle complex logistics scenarios with multiple constraints.
 
 ## Authors
-
-* **Esther Vera** - *Noumena* - [Esther Vera](https://github.com/EstherNoumena)
+* **Konstantinos Grigoriadis** - *Geosense* - [Konstantinos Grigoriadis](https://www.linkedin.com/in/kostas-grigoriadis-53382432/)
 
 ## Acknowledgements
 This project is funded by the European Union, grant ID 101060643.
