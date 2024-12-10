@@ -36,12 +36,14 @@ Within this repository, you'll find various models and computational tools desig
 The repository is structured as follows: 
 
 - **data:** Contains datasets used for training and testing the models. Some datasets are available for download from [Zenodo](https://zenodo.org/).
-- **images:** Includes images for planning and optimizing drone delivery routes in rural settings.
+- **images:** Contains images related to the models..
 - **models:** Contains machine learning models and algorithms developed specifically for rural logistics.
 - **platform.json:** Structured information about the models and their parameters.
+- **LICENSE:** The license file for the repository.
+- **README.md:** This file, providing an overview of the repository.
 
 ## Models
-The [models](https://github.com/ICAERUS-EU/UC5_Rural_Logistics/blob/main/models/) developed are the following:
+The [models](https://github.com/ICAERUS-EU/UC5_Rural_Logistics/blob/main/models/) are the following:
 
 #### _[Ant Colony Optimization Model](https://github.com/ICAERUS-EU/UC5_Rural_Logistics/blob/main/models/01_MM_ant_colony_v1/)_
 This model uses Ant Colony Optimization (ACO) techniques to solve logistics routing problems efficiently by mimicking the behavior of ant colonies in nature.
