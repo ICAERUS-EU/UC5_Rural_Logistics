@@ -33,12 +33,10 @@
 Within this repository, you'll find various models and computational tools designed to enable and enhance rural logistics operations using drones. These tools address challenges in transporting essential goods, medical supplies, and other critical resources to remote and isolated areas.
 
 ## Structure
-The repository folders are structured as follows: 
+The repository is structured as follows: 
 
 - **data:** Contains datasets used for training and testing the models. Some datasets are available for download from [Zenodo](https://zenodo.org/).
-- **route_optimization:** Includes tools for planning and optimizing drone delivery routes in rural settings.
-  - **pathfinder:** Algorithms for finding optimal delivery routes considering terrain and weather conditions.
-  - **multi_drop:** A system for managing deliveries to multiple locations efficiently.
+- **images:** Includes images for planning and optimizing drone delivery routes in rural settings.
 - **models:** Contains machine learning models and algorithms developed specifically for rural logistics.
 - **platform.json:** Structured information about the models and their parameters.
 
