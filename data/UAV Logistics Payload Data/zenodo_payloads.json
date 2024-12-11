@@ -1,0 +1,93 @@
+[
+    {
+        "Payload_Type": "Medical_Supplies",
+        "Weight_grams": 450,
+        "Packaging_Dimensions_cm": "15x10x10",
+        "Fragile": "Yes",
+        "Temperature_Sensitivity": "Yes",
+        "Delivery_Urgency": "High",
+        "Transport_Conditions": "Shockproof",
+        "Payload_Security": "High",
+        "Severity_Level": "Critical",
+        "Usage_Level": "Frequent",
+        "Description": "Essential medicines and healthcare items for emergencies or routine medical support."
+    },
+    {
+        "Payload_Type": "Food_Supplies",
+        "Weight_grams": 1200,
+        "Packaging_Dimensions_cm": "30x20x15",
+        "Fragile": "No",
+        "Temperature_Sensitivity": "Yes",
+        "Delivery_Urgency": "Medium",
+        "Transport_Conditions": "Waterproof",
+        "Payload_Security": "Basic",
+        "Severity_Level": "High",
+        "Usage_Level": "Frequent",
+        "Description": "Non-perishable or perishable food items for humanitarian aid or isolated communities."
+    },
+    {
+        "Payload_Type": "Blood_Samples",
+        "Weight_grams": 350,
+        "Packaging_Dimensions_cm": "10x10x5",
+        "Fragile": "Yes",
+        "Temperature_Sensitivity": "Yes",
+        "Delivery_Urgency": "High",
+        "Transport_Conditions": "Temperature_Controlled",
+        "Payload_Security": "High",
+        "Severity_Level": "Critical",
+        "Usage_Level": "Occasional",
+        "Description": "Biological samples that require strict temperature control for lab analysis."
+    },
+    {
+        "Payload_Type": "Vaccines",
+        "Weight_grams": 300,
+        "Packaging_Dimensions_cm": "12x10x10",
+        "Fragile": "Yes",
+        "Temperature_Sensitivity": "Yes",
+        "Delivery_Urgency": "High",
+        "Transport_Conditions": "Temperature_Controlled",
+        "Payload_Security": "High",
+        "Severity_Level": "Critical",
+        "Usage_Level": "Frequent",
+        "Description": "Temperature-sensitive medical products for immunization campaigns."
+    },
+    {
+        "Payload_Type": "Emergency_Kit",
+        "Weight_grams": 1500,
+        "Packaging_Dimensions_cm": "40x30x20",
+        "Fragile": "Yes",
+        "Temperature_Sensitivity": "No",
+        "Delivery_Urgency": "High",
+        "Transport_Conditions": "Shockproof",
+        "Payload_Security": "High",
+        "Severity_Level": "High",
+        "Usage_Level": "Occasional",
+        "Description": "A collection of items such as first-aid supplies and survival tools for crisis response."
+    },
+    {
+        "Payload_Type": "Water_Bottle",
+        "Weight_grams": 1500,
+        "Packaging_Dimensions_cm": "25x10x10",
+        "Fragile": "No",
+        "Temperature_Sensitivity": "No",
+        "Delivery_Urgency": "Low",
+        "Transport_Conditions": "Standard",
+        "Payload_Security": "None",
+        "Severity_Level": "Low",
+        "Usage_Level": "Frequent",
+        "Description": "Bottled drinking water for delivery to remote or disaster-affected areas."
+    },
+    {
+        "Payload_Type": "Non_Perishable_Food",
+        "Weight_grams": 2500,
+        "Packaging_Dimensions_cm": "40x30x30",
+        "Fragile": "No",
+        "Temperature_Sensitivity": "No",
+        "Delivery_Urgency": "Medium",
+        "Transport_Conditions": "Waterproof",
+        "Payload_Security": "None",
+        "Severity_Level": "Medium",
+        "Usage_Level": "Frequent",
+        "Description": "Packaged food items with long shelf lives, ideal for sustained delivery efforts."
+    }
+]

@@ -1,0 +1,26 @@
+Payload_Type,Weight_grams,Packaging_Dimensions_cm,Fragile,Temperature_Sensitivity,Delivery_Urgency,Transport_Conditions,Payload_Security,Severity_Level,Usage_Level,Description
+Medical_Supplies,450,15x10x10,Yes,Yes,High,Shockproof,High,Critical,Frequent,Essential medicines and healthcare items for emergencies or routine medical support.
+Food_Supplies,1200,30x20x15,No,Yes,Medium,Waterproof,Basic,High,Frequent,Non-perishable or perishable food items for humanitarian aid or isolated communities.
+Blood_Samples,350,10x10x5,Yes,Yes,High,Temperature_Controlled,High,Critical,Occasional,Biological samples that require strict temperature control for lab analysis.
+Vaccines,300,12x10x10,Yes,Yes,High,Temperature_Controlled,High,Critical,Frequent,Temperature-sensitive medical products for immunization campaigns.
+Emergency_Kit,1500,40x30x20,Yes,No,High,Shockproof,High,High,Occasional,A collection of items such as first-aid supplies and survival tools for crisis response.
+Water_Bottle,1500,25x10x10,No,No,Low,Standard,None,Low,Frequent,Bottled drinking water for delivery to remote or disaster-affected areas.
+Non_Perishable_Food,2500,40x30x30,No,No,Medium,Waterproof,None,Medium,Frequent,Packaged food items with long shelf lives, ideal for sustained delivery efforts.
+Agricultural_Samples,800,20x15x10,No,Yes,Medium,Standard,None,Medium,Occasional,Soil or crop samples for agricultural research or monitoring.
+Lab_Equipment,1000,25x20x15,Yes,No,High,Shockproof,High,High,Rare,Tools and devices used for scientific or medical testing in remote areas.
+Educational_Material,1200,30x25x10,No,No,Low,Standard,None,Low,Frequent,Books, stationery, or electronic devices for educational purposes in underserved regions.
+Electronics,800,20x15x10,Yes,No,High,Shockproof,Basic,High,Occasional,Gadgets such as smartphones, laptops, or other devices required for connectivity or operations.
+Critical_Documents,200,30x5x2,Yes,No,High,Standard,High,Critical,Occasional,Legal or sensitive documents that require secure and rapid transport.
+Solar_Battery,2500,30x30x20,No,No,Medium,Shockproof,Basic,High,Rare,Portable solar-powered energy storage systems for remote power supply.
+Power_Bank,700,15x10x5,No,No,Medium,Shockproof,None,Medium,Frequent,Portable batteries used to recharge devices like phones or medical equipment.
+Seeds,400,10x10x10,No,No,Medium,Standard,None,Medium,Occasional,Agricultural seeds for farming, reforestation, or crop restoration projects.
+Pet_Food,1200,30x20x15,No,No,Medium,Waterproof,None,Low,Frequent,Nutritional supplies for animals, especially during emergencies or rural outreach.
+Tents,4000,50x40x20,No,No,Medium,Waterproof,None,Medium,Occasional,Foldable shelters for disaster relief or temporary accommodations.
+Clothing,2000,40x30x20,No,No,Low,Standard,None,Low,Frequent,Garments delivered to areas affected by disasters or extreme weather.
+Smartphones,500,15x10x5,Yes,No,High,Shockproof,Basic,High,Occasional,Devices for communication and data management in isolated or rural regions.
+Drones_Spare_Parts,800,20x15x10,Yes,No,High,Shockproof,High,Critical,Rare,Replacement components for drones, ensuring continuity of operations.
+Toolkits,2500,40x30x20,No,No,Medium,Shockproof,None,Medium,Frequent,Basic tools required for maintenance, repairs, or specific tasks in rural areas.
+Agricultural_Tools,3000,50x30x25,No,No,Medium,Standard,None,Medium,Occasional,Equipment for farming activities, such as hand tools or small machinery.
+Construction_Material,5000,60x40x30,No,No,Medium,Waterproof,None,Medium,Rare,Raw materials like cement, bricks, or wood for infrastructure projects in rural areas.
+Personal_Protective_Equipment,2000,40x30x20,No,No,High,Standard,None,High,Frequent,Safety gear such as masks, gloves, and goggles for medical or industrial use.
+Portable_Generator,15000,70x50x50,No,No,High,Shockproof,High,Critical,Rare,Compact power generation units to supply electricity in off-grid locations.

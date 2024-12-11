@@ -35,8 +35,8 @@ Within this repository, you'll find various models and computational tools desig
 ## Structure
 The repository is structured as follows: 
 
-- **data:** Contains datasets used for training and testing the models. Some datasets are available for download from [Zenodo](https://zenodo.org/).
-- **images:** Contains images related to the models..
+- **data:** Contains datasets and resources that support the development of the DaeDaLus (Drone Delivery Logistics Services) platform. Some datasets are available for download from [Zenodo](https://zenodo.org/).
+- **images:** Contains images related to the models.
 - **models:** Contains machine learning models and algorithms developed specifically for rural logistics.
 - **platform.json:** Structured information about the models and their parameters.
 - **LICENSE:** The license file for the repository.
