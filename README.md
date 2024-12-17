@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://icaerus.eu" target="_blank">
-    <img width="300" src="https://icaerus.eu/wp-content/uploads/2022/09/ICAERUS-logo-white.svg" alt="ICAERUS Logo">
+    <img width="300" src="https://raw.githubusercontent.com/ICAERUS-EU/.github/refs/heads/main/profile/ICAERUS_transparent.png" alt="ICAERUS Logo">
   </a>
   <a href="https://daedalus.geosenseapps.com" target="_blank">
     <img width="120" src="https://daedalus.geosenseapps.com/images/dlogo2.png" alt="DAEDALUS Logo">
