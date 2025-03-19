@@ -1,0 +1,66 @@
+{
+    "solution_found": true,
+    "routes": [
+        {
+            "vehicle_id": 1,
+            "route": [
+                {
+                    "location_index": 0,
+                    "delivery_load": 0.0,
+                    "pickup_load": 0.0,
+                    "location_lat": 40.6050811,
+                    "location_lng": 22.9533302
+                },
+                {
+                    "location_index": 2,
+                    "delivery_load": 2.0,
+                    "pickup_load": 0.0,
+                    "location_lat": 40.59062,
+                    "location_lng": 22.95876
+                },
+                {
+                    "location_index": 0,
+                    "delivery_load": 0,
+                    "pickup_load": 0.0,
+                    "location_lat": 40.6050811,
+                    "location_lng": 22.9533302
+                }
+            ],
+            "distance": 3.344
+        },
+        {
+            "vehicle_id": 4,
+            "route": [
+                {
+                    "location_index": 0,
+                    "delivery_load": 0.0,
+                    "pickup_load": 0.0,
+                    "location_lat": 40.6050811,
+                    "location_lng": 22.9533302
+                },
+                {
+                    "location_index": 1,
+                    "delivery_load": 1.0,
+                    "pickup_load": 0.0,
+                    "location_lat": 40.59920486748849,
+                    "location_lng": 22.9720182819242
+                },
+                {
+                    "location_index": 0,
+                    "delivery_load": 0,
+                    "pickup_load": 0.0,
+                    "location_lat": 40.6050811,
+                    "location_lng": 22.9533302
+                }
+            ],
+            "distance": 3.414
+        }
+    ],
+    "depot_coords": [
+        40.6050811,
+        22.9533302
+    ],
+    "total_distance": 6.758,
+    "total_pickup_load": 0.0,
+    "total_delivery_load": 3.0
+}

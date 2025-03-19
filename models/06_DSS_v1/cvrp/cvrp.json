@@ -1,0 +1,84 @@
+{
+    "vehicles": [
+        {
+            "vehicle_id": 1,
+            "capacity": 2.5,
+            "max_distance": 5,
+            "max_cargo_length": 30,
+            "max_cargo_width": 20,
+            "max_cargo_height": 15
+        },
+        {
+            "vehicle_id": 4,
+            "capacity": 10,
+            "max_distance": 50,
+            "max_cargo_length": 54,
+            "max_cargo_width": 28,
+            "max_cargo_height": 28
+        }
+    ],
+    "demands": [
+        {
+            "location_index": 0,
+            "delivery_request": 0,
+            "pickup_request": 0
+        },
+        {
+            "location_index": 1,
+            "delivery_request": 1,
+            "pickup_request": 0
+        },
+        {
+            "location_index": 2,
+            "delivery_request": 2,
+            "pickup_request": 0
+        }
+    ],
+    "distances": [
+        {
+            "from_node": 0,
+            "to_node": 1,
+            "distance": 1.7076808607511058
+        },
+        {
+            "from_node": 0,
+            "to_node": 2,
+            "distance": 1.6720740532398557
+        },
+        {
+            "from_node": 1,
+            "to_node": 0,
+            "distance": 1.7076808607511058
+        },
+        {
+            "from_node": 1,
+            "to_node": 2,
+            "distance": 1.471191136783408
+        },
+        {
+            "from_node": 2,
+            "to_node": 0,
+            "distance": 1.6720740532398557
+        },
+        {
+            "from_node": 2,
+            "to_node": 1,
+            "distance": 1.471191136783408
+        }
+    ],
+    "depot": 0,
+    "coordinates": [
+        [
+            40.6050811,
+            22.9533302
+        ],
+        [
+            40.59920486748849,
+            22.9720182819242
+        ],
+        [
+            40.59062,
+            22.95876
+        ]
+    ]
+}
