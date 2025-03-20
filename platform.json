@@ -1,10 +1,10 @@
 [
     {
         "title": "Math_Combinatorics",
-        "creator": "kgrigor@geosense.gr",
+        "creator": "Kostas Grigoriadis - kgrigor@geosense.gr",
         "date": "10/06/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/math_combinations.png",
-        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-ant_colony",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/03_MM_combinations_v1",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
@@ -34,10 +34,10 @@
     },
     {
         "title": "Vehicle Routing Problem with Pickups and Deliveries (VRPPD)",
-        "creator": "kgrigor@geosense.gr",
+        "creator": "Kostas Grigoriadis - kgrigor@geosense.gr",
         "date": "10/06/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/vrp_pickup_delivery_solution.svg",
-        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM_cvrp_pickup_delivery_distance",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/04_cvrp_pickup_delivery_distance_v1",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
@@ -68,7 +68,7 @@
     },
     {
         "title": "Genetic Algorithm for Traveling Salesman Problem (TSP)",
-        "creator": "kgrigor@geosense.gr",
+        "creator": "Kostas Grigoriadis - kgrigor@geosense.gr",
         "date": "10/06/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/genetic_algorithm.png",
         "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM_genetic_algorithm",
@@ -101,7 +101,7 @@
     },
     {
         "title": "Ant Colony Optimization Algorithm",
-        "creator": "kgrigor@geosense.gr",
+        "creator": "Kostas Grigoriadis - kgrigor@geosense.gr",
         "date": "10/06/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/ant_colony.svg",
         "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-ant_colony",
@@ -134,10 +134,43 @@
     },
     {
         "title": "Python TSP Solver",
-        "creator": "FrickTobias, luanleonardo",
+        "creator": "Kostas Grigoriadis - kgrigor@geosense.gr",
         "date": "03/10/2024",
         "icon": "https://daedalus.geosenseapps.com/models/images/traveling-salesman-problem.png",
-        "url": "https://github.com/ICAERUS-EU/UC5/tree/0970ec27e16d252e604dac6192fad6f24691ede5/Math_Models/MM-tsp",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/02_MM_tsp_v1",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solves the Traveling Salesman Problem (TSP) using various methods, including dynamic programming and local search."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "TSP Solver"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }		
+    },
+	{
+        "title": "DeaDaLuS Decision Support System",
+        "creator": "Kostas Grigoriadis - kgrigor@geosense.gr",
+        "date": "03/10/2024",
+        "icon": "https://daedalus.geosenseapps.com/models/images/daedalus_DSS_logo.png",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/06_DSS_v1",
         "icaerus_applications": [
             "DaeDaLuS - Drone Delivery Logistic Services"
         ],
